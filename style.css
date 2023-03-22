@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+}
+.top-div {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(247, 247, 247);
+}
+
+.left {
+  width: 50%;
+  float: left;
+  height: 150px;
+}
+.right {
+  width: 50%;
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+.image11 {
+  width: 80px;
+  margin-bottom: 0px;
+  margin-top: 13px;
+}
+.center-div {
+  width: 100%;
+  height: 1971px;
+  background-color: rgb(247, 247, 247);
+}
+.footerdiv {
+  width: 100%;
+  height: 113px;
+  background-color: #8307ff;
+}
+.table1 {
+  display: inline-block;
+  text-decoration: none;
+
+  margin-right: -102px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 167px;
+}
+
+.info {
+  width: 100%;
+  height: 50px;
+}
+.para1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 41px;
+  color: #ffffff;
+  margin-top: 91px;
+}
+.gifs {
+  width: 100%;
+}
+.gif1 {
+  margin-left: 568px;
+  margin-top: 90px;
+}
+.gif2 {
+  margin-left: 0px;
+  padding-left: 471px;
+  margin-top: 147px;
+}
+.gif3 {
+  margin-left: 0px;
+  padding-left: 515px;
+}
+
+.para2 {
+  text-align: center;
+  font-size: 36px;
+  font-family: initial;
+
+  margin-top: 0px;
+}
+.contact {
+  text-align: center;
+  padding-right: 42px;
+  font-size: 39px;
+  text-decoration: none;
+  color: burlywood;
+}
+.button {
+  border: none;
+  color: #00963e;
+  padding: 10px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 48px 0px;
+  cursor: pointer;
+  font-family: ui-serif;
+  border-radius: 12px;
+  padding-right: 10px;
+}
+.devh1 {
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.dummy {
+  height: 100px;
+}
+.devh2 {
+  font-size: 21px;
+  justify-content: center;
+  display: flex;
+  margin-top: 41px;
+}
+
+button {
+  position: relative;
+  height: 50px;
+  padding: 0 30px;
+  border: 2px solid #000;
+  background: rgb(247, 247, 247);
+  user-select: none;
+  white-space: nowrap;
+  transition: all 0.05s linear;
+  font-family: inherit;
+}
+
+button:before,
+button:after {
+  content: "";
+  position: absolute;
+  background: rgb(247, 247, 247);
+  transition: all 0.2s linear;
+}
+
+button:before {
+  width: calc(100% + 6px);
+  height: calc(100% - 16px);
+  top: 8px;
+  left: -3px;
+}
+
+button:after {
+  width: calc(100% - 16px);
+  height: calc(100% + 6px);
+  top: -3px;
+  left: 8px;
+}
+
+button:hover {
+  cursor: crosshair;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:hover:before {
+  height: calc(100% - 32px);
+  top: 16px;
+}
+
+button:hover:after {
+  width: calc(100% - 32px);
+  left: 16px;
+}
+
+button span {
+  font-size: 15px;
+  z-index: 3;
+  position: relative;
+  font-weight: 600;
+}
+.dev_techs {
+  max-width: 860px;
+  margin-left: 244px;
+  margin-top: 130px;
+}
+.blue_div {
+  width: 100%;
+  height: 554px;
+  background-color: #6e07f3;
+}
+.dis_me {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.contadiv {
+  display: flex;
+  justify-content: center;
+}
+.skill1 {
+  border-radius: 41px;
+  background: #e0dcdc94;
+  box-shadow: 30px 30px 60px #bebbbb, -30px -30px 60px #fffdfd;
+  width: 226px;
+  height: 154px;
+  margin-left: 101px;
+}
+.skill2 {
+  border-radius: 41px;
+  background: #e0dcdc94;
+  box-shadow: 30px 30px 60px #bebbbb, -30px -30px 60px #fffdfd;
+  width: 226px;
+  height: 154px;
+  margin-left: 103px;
+}
+.skill3 {
+  border-radius: 41px;
+  background: #e0dcdc94;
+  box-shadow: 30px 30px 60px #bebbbb, -30px -30px 60px #fffdfd;
+  width: 226px;
+  height: 154px;
+  margin-left: 101px;
+}
+.skill4 {
+  border-radius: 41px;
+  background: #e0dcdc94;
+  box-shadow: 30px 30px 60px #bebbbb, -30px -30px 60px #fffdfd;
+  width: 226px;
+  height: 154px;
+  margin-left: 102px;
+}
+.skilldiv {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  gap: 214px;
+  margin-top: 155px;
+  grid-template-rows: 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+}
+
+.connects {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.skillp {
+  text-align: center;
+  padding-top: 49px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: #5f1cb5;
+  font-weight: bold;
+}
+.footerpara {
+  text-align: center;
+  padding-top: 91px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.skillH {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: #6c1cd2;
+  font-size: 31px;
+}
